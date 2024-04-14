@@ -1,0 +1,30 @@
+/*
+Custom Css
+*/
+.bg-color{
+    background-color: #15161D;
+}
+.container a .text-red{
+    color: #D10024;
+}
+.navbar-light .navbar-brand {
+    color: #D10024;
+}
+.fixed-icon-list {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.fixed-icon-list li {
+    margin-bottom: 10px; /* Adjust this value based on the space you want between the icons */
+}
+
+.fixed-messenger-icon img, .fixed-zalo-icon img {
+    width: 50px;
+    height: 50px;
+}
